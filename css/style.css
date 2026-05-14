@@ -1006,3 +1006,33 @@ iframe{
 #footer .credits {
   font-size: 13px;
 }
+
+.contact-form-custom .form-control {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  transition: 0.3s;
+}
+
+.contact-form-custom .form-control:focus {
+  border-color: #0563bb;
+  box-shadow: 0 0 8px rgba(5, 99, 187, 0.2);
+}
+
+.submit-btn {
+  background: #0563bb;
+  border: 0;
+  padding: 12px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px; /* Rounded look */
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0px 4px 15px rgba(5, 99, 187, 0.3);
+}
+
+.submit-btn:hover {
+  background: #0678e3;
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 20px rgba(5, 99, 187, 0.4);
+}
